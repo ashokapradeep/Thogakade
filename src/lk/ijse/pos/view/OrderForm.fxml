@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="481.0" prefWidth="777.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.pos.controller.OrderFormController">
+   <children>
+      <TableView fx:id="tblOrder" layoutX="57.0" layoutY="67.0" prefHeight="318.0" prefWidth="642.0">
+        <columns>
+          <TableColumn fx:id="colOrderId" prefWidth="178.0" text="OrderId" />
+          <TableColumn fx:id="colDate" prefWidth="203.0" text="Date" />
+            <TableColumn fx:id="colCost" prefWidth="260.0" text="Cost" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
